@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    text-align: center;
+    display: block;
+}
+
+h1 {
+    color: white;
+}
+
+.button {
+    font-size: 15pt;
+    background-color: aqua;
+    padding: 8px;
+    border-color: aqua;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px aqua;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 50px aqua;
+}

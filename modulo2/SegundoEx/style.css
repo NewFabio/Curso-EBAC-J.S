@@ -8,6 +8,12 @@ h1 {
     color: white;
 }
 
+p {
+    color: wheat;
+    font-size: 20pt;
+    font-family: Arial, sans-serif;
+}
+
 .button {
     font-size: 15pt;
     background-color: aqua;
@@ -15,6 +21,7 @@ h1 {
     border-color: aqua;
     border-radius: 15px;
     box-shadow: 0px 0px 30px aqua;
+    margin-top: 20px;
 }
 
 .button:hover {

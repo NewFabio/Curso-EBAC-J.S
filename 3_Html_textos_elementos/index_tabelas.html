@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #add;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Página de tabela em HTML</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Pedro</th>
+                <th>25</th>
+                <th>São Paulo</th>
+            </tr>
+            <tr>
+                <th>Maria</th>
+                <th>30</th>
+                <th>São Paulo</th>
+            </tr>
+            <tr>
+                <th>José</th>
+                <th>35</th>
+                <th>São Paulo</th>
+            </tr>
+        </tbody>
+    </table>
+    <!--
+    OUTRAS OBSERVAÇÕES:
+
+    Estrutura Básica: As tabelas em HTML são definidas usando as tags <table> para a tabela em si, <tr> para as linhas da tabela e <td> para as células dentro das linhas.
+
+    Cabeçalhos de Tabela: Para definir cabeçalhos de tabela, você usa a tag <th> dentro da tag <tr>. Os cabeçalhos de tabela são normalmente exibidos em negrito e centralizados por padrão.
+
+    Células de Dados: Para inserir dados na tabela, use a tag <td> dentro da tag <tr>. As células de dados contêm o conteúdo real da tabela.
+
+    Colunas e Alinhamento: Você pode definir o alinhamento de texto em células individuais usando os atributos align e valign, ou aplicando estilos CSS.
+
+    Atributos de Tabela: Além dos elementos básicos, existem atributos adicionais para tabelas, como border para definir a largura da borda, width para definir a largura da tabela, cellspacing e cellpadding para definir o espaçamento entre células e o preenchimento dentro delas, respectivamente.
+
+    Tabelas Aninhadas: É possível aninhar tabelas dentro de outras tabelas para criar layouts complexos, mas isso geralmente não é recomendado devido à complexidade e dificuldade de manutenção.
+
+    Títulos e Sumários: As tabelas podem ter títulos e sumários para fornecer informações adicionais sobre a estrutura e o conteúdo da tabela, usando as tags <caption> e <summary>.
+
+    Acessibilidade: Ao criar tabelas, é importante considerar a acessibilidade para usuários com deficiência visual. Isso inclui o uso apropriado de cabeçalhos de tabela, marcação semântica correta e texto alternativo para imagens dentro da tabela.   
+    -->
+</body>
+</html>

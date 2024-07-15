@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulário inicial EBAC</h1>
+
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required><br><br>
+
+        <label for="mensagem">Deixei seu recado:</label>
+        <textarea name="mensagem" id="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar sua sugestão">
+        <input type="reset" value="Limpar">
+
+    </form>
+
+    <!--
+    Elemento de Formulário: O formulário em HTML é representado pela tag <form>. É usado para coletar dados do usuário, como texto, seleções, caixas de seleção e botões.
+
+    Campos de Entrada: Existem vários tipos de campos de entrada que podem ser incluídos em um formulário, como:
+
+    <input type="text"> para entrada de texto simples.
+
+    <input type="password"> para senhas (o texto é oculto).
+
+    <input type="checkbox"> para caixas de seleção.
+
+    <input type="radio"> para botões de rádio (permite apenas uma seleção entre várias opções).
+
+    <input type="file"> para carregar arquivos.
+
+    <select> e <option> para menus suspensos (dropdowns).
+
+    <textarea> para áreas de texto multi-linha.
+
+
+
+    Atributos dos Campos de Entrada: Os campos de entrada podem ter atributos adicionais, como name, value, placeholder, required, disabled, readonly, entre outros, que controlam o comportamento e a aparência dos campos.
+
+
+
+    Botões: Além dos campos de entrada, os formulários também podem incluir botões para enviar dados (<input type="submit">) ou redefinir o formulário (<input type="reset">). Também é possível usar botões de tipo button com scripts JavaScript.
+
+
+
+    Rótulos: É uma prática recomendada incluir rótulos descritivos para cada campo de entrada usando a tag <label>. Os rótulos melhoram a usabilidade e acessibilidade, associando texto descritivo aos campos de entrada.
+
+
+
+    Grupos de Campos: Você pode agrupar campos relacionados em um formulário usando a tag <fieldset>, e adicionar uma legenda descritiva usando a tag <legend>.
+
+
+
+    Envio de Dados: Quando um formulário é enviado, os dados são enviados para um servidor web especificado no atributo action do elemento <form>. O método de envio padrão é o método GET, mas você também pode usar o método POST para enviar dados de forma mais segura e eficiente.
+
+
+
+    Validação de Formulário: HTML5 introduziu validação de formulário no lado do cliente, permitindo que você especifique requisitos de validação diretamente nos atributos dos campos de entrada (por exemplo, required, min, max, pattern). No entanto, a validação do lado do servidor também é essencial para garantir a integridade dos dados.    
+    -->
+</body>
+</html>

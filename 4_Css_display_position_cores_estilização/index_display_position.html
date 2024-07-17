@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Aula de Display e Posições</title>
+</head>
+<body>
+    <h1>Exemplos de Display e Posição</h1>
+
+    <section>
+        <h2>Display</h2>
+        <div class="display-examples">
+            <div class="display-block">Display: isso é o block</div>
+            <div class="display-inline">Display: isso é o inline menor</div>
+            <div class="display-inline">Display: isso é o inline maior</div>
+            <div class="display-inline-block">Display: isso é o inline-block</div>
+            <div class="display-none">Display: isso é o bloco que não aparece</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Posições</h2>
+        <div class="position-examples">
+            <div class="position-static">Posição estática</div>
+            <div class="position-static">Posição estática</div>
+            <div class="position-relative">Posição relativa</div>
+            <div class="position-absolute">Posição absoluta</div>
+            <div class="position-fixed">Posição fixa</div>
+        </div>
+    </section>
+</body>
+</html>
+
+<!--
+    Propriedades 'display'
+
+display: block
+Define o elemento como um bloco.Ocupa a largura total disponível, fazendo com que qualquer elemento seguinte comece em uma nova linha.
+
+Exemplo: <div style="display: block;">Conteúdo</div>
+
+display: inline
+Define o elemento como inline. Ocupa apenas o espaço necessário para seu conteúdo, permitindo que outros elementos inline fiquem ao seu lado na mesma linha.
+
+Exemplo: <span style="display: inline;">Conteúdo</span>
+
+display: inline-block
+Combina características de block e inline.Ocupa apenas o espaço necessário para seu conteúdo (como inline), mas permite definir larguras e alturas (como block).
+
+Exemplo: <div style="display: inline-block; width: 100px; height: 100px;">Conteúdo</div>
+
+display: none
+Oculta o elemento. O elemento não é renderizado na página, ocupando nenhum espaço.
+
+Exemplo: <div style="display: none;">Conteúdo oculto</div>
+
+
+Propriedades 'position'
+
+
+position: static
+Valor padrão, o elemento é posicionado de acordo com o fluxo normal do documento.Não permite definir propriedades top, right, bottom ou left.
+
+Exemplo: <div style="position: static;">Conteúdo</div>
+
+
+position: relative
+O elemento é posicionado em relação à sua posição normal. Permite o uso das propriedades top, right, bottom e left para ajustar a posição a partir de onde ele estaria no fluxo normal.
+
+Exemplo: <div style="position: relative; top: 10px; left: 10px;">Conteúdo</div>
+
+position: absolute
+O elemento é posicionado em relação ao seu antecessor posicionado mais próximo (não estático). Remove o elemento do fluxo normal, permitindo que você o posicione usando top, right, bottom e left.
+
+Exemplo: <div style="position: absolute; top: 50px; left: 50px;">Conteúdo</div>
+
+position: fixed
+O elemento é posicionado em relação à viewport (janela de visualização). Comportamento: Permite posicionamento fixo na janela de visualização usando top, right, bottom e left. O elemento permanece fixo na posição mesmo durante a rolagem da página.
+
+Exemplo: <div style="position: fixed; top: 0; left: 0;">Conteúdo fixo</div>
+
+
+-->

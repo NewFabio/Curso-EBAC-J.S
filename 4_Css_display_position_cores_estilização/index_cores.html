@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Aula de cores</title>
+</head>
+<body>
+    <h1>Exemplo de Coloração no CSS</h1>
+
+    <section>
+        <h2>Cores de Texto</h2>
+        <p class="text-color">Este texto esta colorido com uma cor hexadecimal</p>
+        <p class="text-rgb">Este texto esta colorido com uma cor rgb</p>
+        <p class="text-rgba">Este texto esta colorido com uma cor rgba</p>
+        <p class="text-hsl">Este texto esta colorido com uma cor hsl</p>
+        <p class="text-hsla">Este texto esta colorido com uma cor hsla</p>
+    </section>
+
+    <section>
+        <h2>Cores de Fundo: background</h2>
+        <div class="background-color">Este div tem uma cor de fundo hexadecimal</div>
+        <div class="background-rgb">Este div tem uma cor de fundo rgb</div>
+        <div class="background-rgba">Este div tem uma cor de fundo rgba</div>
+        <div class="background-hsl">Este div tem uma cor de fundo hsl</div>
+        <div class="background-hsla">Este div tem uma cor de fundo hsla</div>
+    </section>
+
+    <section>
+        <h2>Gradientes</h2>
+        <div class="gradient-linear">Este div tem um gradiente linear de fundo</div>
+        <div class="gradient-radial">Este div tem um gradiente radial de fundo</div>
+    </section>
+
+    <section>
+        <h2>Opacidade</h2>
+        <div class="opacity-example">Este div tem uma opacidade de 0.5</div>
+    </section>
+    
+</body>
+</html>
+
+<!--
+Propriedades de Cor no CSS
+
+No CSS, as cores podem ser aplicadas a diferentes elementos da página como texto, fundo, bordas e sombras. Há várias formas de definir cores:
+
+Hexadecimal (HEX)
+As cores podem ser definidas usando o formato hexadecimal, que é representado por um símbolo # seguido de seis caracteres (dígitos de 0-9 e letras de A-F). Por exemplo: color: #FF5733; /* Cor laranja */
+
+RGB (Red, Green, Blue)
+Outro formato é o RGB, que utiliza três valores (de 0 a 255) para representar as intensidades de vermelho, verde e azul: color: rgb(255, 87, 51); /* Cor laranja */
+
+RGBA (RGB com Alpha)
+Similar ao RGB, mas com um quarto valor para a opacidade (alpha), variando de 0 (transparente) a 1 (opaco):color: rgba(255, 87, 51, 0.5); /* Cor laranja com 50% de opacidade */
+
+HSL (Hue, Saturation, Lightness)
+O formato HSL define cores usando três valores para matiz, saturação e luminosidade: color: hsl(9, 100%, 60%); /* Cor laranja */
+
+HSLA (HSL com Alpha)
+Como o HSL, mas com um quarto valor para a opacidade: color: hsla(9, 100%, 60%, 0.5); /* Cor laranja com 50% de opacidade */
+
+
+Aplicação de Cores
+
+As cores podem ser aplicadas a diferentes propriedades de elementos HTML, como o texto, fundo, borda e sombras.
+
+
+Cor do Texto (color)
+Define a cor do texto de um elemento:
+
+h1 {
+
+color: #333333; /* Cor preta */
+
+}
+
+Cor de Fundo (background-color)
+Define a cor de fundo de um elemento:
+
+body {
+
+background-color: #FFFFFF; /* Cor branca */
+
+}
+
+Borda (border-color)
+Define a cor das bordas de um elemento:
+
+div {
+
+border: 1px solid #000000; /* Borda preta */
+
+}
+
+Sombra (box-shadow e text-shadow)
+Define a cor da sombra de um elemento:
+
+/* Sombra de caixa */
+
+div {
+
+box-shadow: 2px 2px 5px #888888; /* Sombra cinza */
+
+}
+
+
+/* Sombra de texto */
+
+h1 {
+
+text-shadow: 2px 2px 2px #CCCCCC; /* Sombra cinza clara */
+
+}
+
+Gradientes
+
+Os gradientes são transições suaves entre duas ou mais cores.
+
+
+Gradiente Linear (linear-gradient)
+Cria uma transição de cores ao longo de uma linha (horizontal, vertical ou diagonal):
+
+background: linear-gradient(to right, #FF7F50, #1E90FF); /* Do laranja ao azul */
+
+Gradiente Radial (radial-gradient)
+Cria uma transição de cores a partir de um ponto central em forma de círculo ou elipse:
+
+background: radial-gradient(circle, #FF7F50, #1E90FF); /* Circular, do laranja ao azul */
+
+Opacidade (opacity)
+A propriedade opacity define a transparência de um elemento, variando de 0 (totalmente transparente) a 1 (totalmente opaco):
+
+div {
+
+opacity: 0.5; /* 50% de opacidade */
+
+}
+
+-->

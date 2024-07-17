@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.text-color {
+    color: #7bff47;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.text-rgb {
+    color: rgb(60, 179, 113);
+    box-shadow: 2px 2px 5px #888888;
+
+}
+
+.text-rgba {
+    color: rgba(15, 247, 7, 0.5);
+    box-shadow: 2px 2px 5px #888888;
+
+}
+
+.text-hsl {
+    color: hsl(240, 100%, 50%);
+    box-shadow: 2px 2px 5px #888888;
+
+}
+
+.text-hsla {
+    color: hsla(240, 100%, 50%, 0.5);
+    box-shadow: 2px 2px 5px #888888;
+
+}
+
+.background-color {
+    background-color: #Add8e6;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.background-rgb {
+    background-color: rgb(255, 165, 0);
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.background-rgba {
+    background-color: rgba(255, 165, 0, 0.5);
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.background-hsl {
+    background-color: hsl(120, 100%, 75%);
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.background-hsla {
+    background-color: hsla(120, 100%, 75%, 0.5);
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.gradient-linear {
+    background: linear-gradient(to right, #ff7f60, #1e90ff);
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+.gradient-radial {
+    background: radial-gradient(circle, #ff7f50, #1e90ff);
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+.opacity-example {
+    background-color: #ff6347;
+    opacity: 0.5;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    color: #fff;
+}

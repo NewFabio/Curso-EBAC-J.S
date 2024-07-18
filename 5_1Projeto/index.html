@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portifólio Fabio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Olá! Sou Fabio da Conceição</h2>
+            <p>Desenvolvedor Javascript, cursando EBAC</p>
+            <a href="#projects" class="btn">Veja meus Projetos</a>
+        </div>        
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre mim</h2>
+            <p>Sou desenvolvedor web com experiência em criar sites e aplicativos web modernos e responsivos. Tenho uma paixão por aprender novas tecnologias e melhorar continuamente minhas habilidades.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="project">
+                <img src="/5_1Projeto/img/projeto1.png" alt="Projeto1">
+                <div class="project-info">
+                    <h3>Sistema de gerenciamento de Tarefas</h3>
+                    <p>Um aplicativo web que permite aos usuários criar, editar e excluir tarefas. Inclui funcionalidades de categorização, definição de prazos e notificações para lembrar os usuários sobre tarefas pendentes.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="/5_1Projeto/img/projeto2.jpg" alt="Projeto2">
+                <div class="project-info">
+                    <h3>Aplicativo de previsão de tempo</h3>
+                    <p>Um aplicativo móvel que exibe a previsão do tempo para diferentes locais. Os usuários podem buscar por cidade ou usar a localização atual para obter previsões detalhadas, incluindo temperatura, umidade e condições climáticas.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="/5_1Projeto/img/projeto3.png" alt="Projeto3">
+                <div class="project-info">
+                    <h3>Plataforma de Blog</h3>
+                    <p>Um sistema de blog onde os usuários podem se registrar, escrever, editar e publicar postagens. Inclui funcionalidades de comentários e likes para engajar os leitores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="#" mathod="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+
+                <label for="name">Deixe seu recado:</label>
+                <textarea name="message" id="messsage" rows="4" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fabio da Conceição. Projetos de Portifólio</p>
+        </div>
+    </footer>
+</body>
+</html>

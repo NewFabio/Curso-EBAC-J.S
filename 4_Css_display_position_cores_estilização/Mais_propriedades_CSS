@@ -1,0 +1,143 @@
+Propriedades CSS
+
+Height e Width:
+height: Define a altura de um elemento.
+
+width: Define a largura de um elemento.
+
+Usados para definir dimensões de elementos como containers, divs, etc.
+
+
+Background:
+background-color: Define a cor de fundo de um elemento.
+
+background-image: Define uma imagem de fundo para um elemento.
+
+background-repeat: Controla a repetição da imagem de fundo (e.g., no-repeat).
+
+background-position: Define a posição da imagem de fundo.
+
+background-size: Ajusta o tamanho da imagem de fundo (e.g., cover, contain).
+
+
+Z-Index:
+z-index: Define a ordem empilhada dos elementos posicionados, controlando quais elementos aparecem na frente de outros.
+
+
+Flexbox:
+Usado para criar layouts flexíveis e responsivos.
+
+display: flex: Define um container flexível.
+
+justify-content: Alinha os itens no eixo principal (horizontalmente).
+
+align-items: Alinha os itens no eixo transversal (verticalmente).
+
+
+Estrutura HTML e Estilização
+
+
+Estrutura HTML:
+Elementos principais como <!DOCTYPE html>, <html>, <head>, e <body>.
+
+Dentro do <head>, elementos como <meta charset="UTF-8"> e <title>.
+
+Dentro do <body>, criação de containers (div), seções (section), listas (ul, li), parágrafos (p), cabeçalhos (h1, h2, etc.), e formulários (form, input, textarea, button).
+
+
+Classes e IDs:
+Classes (class) são usadas para aplicar estilos CSS a múltiplos elementos.
+
+IDs (id) são únicos e usados para estilizar elementos específicos.
+
+
+Links CSS:
+Ligação de um arquivo CSS externo usando <link rel="stylesheet" href="styles.css">.
+
+
+Formulários:
+Estrutura básica de um formulário, com diferentes tipos de inputs (input type="text", input type="email", textarea) e um botão de envio (button type="submit").
+
+
+Criação e Estilização de Elementos
+
+
+Containers:
+Divs (<div>) são usadas para agrupar outros elementos e aplicar estilos comuns a eles.
+
+
+Navegação:
+Uso de listas não ordenadas (<ul>, <li>) para criar menus de navegação.
+
+Links (<a href="#">) dentro de listas para criar botões de navegação.
+
+
+Seções:
+Uso de <section> para dividir a página em diferentes seções lógicas.
+
+
+Definições Gerais da Página
+
+
+
+Box Model (Modelo de Caixa)
+Define como o tamanho total de um elemento é calculado, incluindo padding e border no cálculo da largura e altura.
+
+box-sizing: border-box;
+
+
+
+Margem (Margin)
+Remove qualquer margem padrão dos elementos.
+
+margin: 0;
+
+
+
+Fonte (Font)
+Define a fonte dos textos na página como Arial e, caso não esteja disponível, usa uma fonte genérica sans-serif.
+
+font-family: Arial, sans-serif;
+
+
+-----------------------------------------------------------
+Estilização do Cabeçalho e do Container
+
+
+
+Background
+background: url('imagem.jpg') no-repeat center center;
+
+
+
+Display Flex e Alinhamento
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+flex-direction: column;
+
+
+
+Estilização dos Botões
+
+
+
+Padding
+padding: 10px 20px;
+
+
+
+Background e Cor do Texto
+background-color: #555;
+
+color: #fff;
+
+
+
+Borda e Texto
+border: none;
+
+text-decoration: none;

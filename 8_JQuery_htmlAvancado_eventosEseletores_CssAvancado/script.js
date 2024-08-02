@@ -25,9 +25,8 @@ function renderProducts() {
             <img src="${product.image}" alt="${product.name}">
             <h3>${product.name}</h3>
             <p>${product.price}</p>
-            <button>Adicionarao carrinho</button>
         `; //Laço pra puxar as informaçoes do produto 1-chamou imagem, 2-chamou nome, 3-chamou preço, 4-funçao pro botao
-        productDiv.querySelector('button').addEventListener("click", () => addToCart(product.id));
+        productDiv.querySelector('img').addEventListener("click", () => addToCart(product.id));
         productGrid.appendChild(productDiv);
     });
 }

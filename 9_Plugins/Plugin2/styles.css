@@ -1,0 +1,14 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    background-color: #3498db;
+    color: white;
+    padding: 50px;
+    margin: 50px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}

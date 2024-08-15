@@ -4,11 +4,12 @@ let products = [
     {id: 2, name: 'Curso 2: ', price: 20.99, image: '_img/curso2.jpg' },
     {id: 3, name: 'Curso 3: ', price: 30.99, image: '_img/curso3.jpg' },
     {id: 4, name: 'Curso 4: ', price: 40.99, image: '_img/curso4.jpg' },
-    {id: 5, name: 'Curso 5: ', price: 50.99, image: '_img/curso5.jpg' },
+    {id: 5, name: 'Curso 5: ', price: 50.99, image: '_img/curso4.jpg' },
     {id: 6, name: 'Curso 6: ', price: 60.99, image: '_img/curso6.jpg' },
     {id: 7, name: 'Curso 7: ', price: 70.99, image: '_img/curso7.jpg' },
     {id: 8, name: 'Curso 8: ', price: 80.99, image: '_img/curso8.jpg' },
     {id: 9, name: 'Curso 9: ', price: 90.99, image: '_img/curso9.jpg' },
+    {id: 10, name: 'Curso 10: ', price: 90.99, image: '_img/curso9.jpg' },
     //Para adicionar mais produtos é so adicionar mais linhas
 ];
 

@@ -9,6 +9,15 @@ header {
     background-color: #B1DBF9;
     color: #fff;
     padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    list-style: none;
+    text-decoration: none;
+    color: #666;
+    cursor: default;
 }
 
 nav ul {
@@ -16,7 +25,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
 }
 
 nav li {
@@ -29,16 +37,15 @@ nav a {
 }
 
 .hero {
-    background-color: #c3e1f7;
+    background-color: #B1DBF9;
     padding: 100px;
     text-align: center;
-    color: #fff;
+    color: #333;
     text-decoration: none;
 }
 
 .hero button {
     background-color: #fff;
-    color: #333;
     border: 1px solid #B1DBF9;
     border-radius: 20px;
     padding: 10px 20px;
@@ -46,8 +53,9 @@ nav a {
     cursor: pointer;    
 }
 
-.btn {
+.hero a {
     text-decoration: none;
+    color: #333;
 }
 
 .hero button:hover {
@@ -60,16 +68,28 @@ nav a {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
+    grid-template-columns: 3fr 3fr;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 .product {
     background-color: #fff;
-    padding: 14px;
+    padding: 17px;
     border: 1px solid #B1DBF9;
     border-radius: 30px;
     cursor: pointer;
+    margin: auto;
+}
+
+.product:hover {
+    transform: scale(1.02);
+}
+
+.products h2 {
+    text-align: center;
 }
 
 .products img {
@@ -79,14 +99,14 @@ nav a {
 }
 
 .products h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 0;
     text-align: center;
 }
 
 .products p {
     font-size: 14px;
-    color: #666;
+    color: #333;
     text-align: center;
 }
 

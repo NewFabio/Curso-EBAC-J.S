@@ -1,0 +1,20 @@
+PROGRAMAÇÃO ORIENTADA A OBJETOS / POO
+
+PILARES: 
+
+1 - ABSTRAÇÃO
+
+Significa "esconder" partes da implementação do objeto expondo apenas uma interface simples para seu uso.
+
+2 - ENCAPSULAMENTO
+
+Se refere à cosntrução do objeto de modo a proteger o acesso direto a seus dados internos.
+
+3 - HERANÇA
+
+É uma forma de eliminar repetição de código onde um objeto pode herdar características de outra classe, sem a necessidade de se reescrever essas mesmas características.
+
+4 - POLIMORFISMO
+
+Quando duas ou mais classes possuem métodos com o mesmo nome, mas podendo ter implementações diferentes.
+

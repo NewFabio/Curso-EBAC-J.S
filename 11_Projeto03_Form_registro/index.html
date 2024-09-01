@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>App Registro de usuários</title>
+</head>
+<body>
+    <div class="container">
+        <h1>App Registro de Usuários</h1>
+        <form id="userForm">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" placeholder="Nome do funcionário" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Idade:</label>
+                <input type="number" id="age" placeholder="Idade do funcionário" required>
+            </div>
+            <div class="form-group">
+                    <select name="course" id="course" required>
+                    <option value="">Selecione o seu curso</option>
+                    <option value="Curso JavaScript">Curso JavaScript</option>
+                    <option value="Profissão: Desenvolvedor Full Stack Python">Profissão: Desenvolvedor Full Stack Python</option>
+                    <option value="Profissão: Analista de Dados">Profissão: Analista de Dados</option>
+                    <option value="Profissão: Desenvolvedor Full Stack Java">Profissão: Desenvolvedor Full Stack Java</option>
+                    <option value="Introdução à Programação">Introdução à Programação</option>
+                    </select>
+                <!--<input type="text" id="course" placeholder="Cursando" required>-->
+            </div>
+            <button type="submit">Adicionar</button>
+        </form>
+        <button id="listBtn">Listar</button>
+        <div id="usersList" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

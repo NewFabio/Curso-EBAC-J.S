@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  background-color: #f8f8f8;
+  padding: 1.25rem;
+  width: 300px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(14, 30, 253, 0.1);
+}
+
+input, button {
+  margin: 0.62rem;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #5cb85c;
+  color: white;
+  border-color: #4cae4c;
+}

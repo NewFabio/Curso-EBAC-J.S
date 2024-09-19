@@ -1,12 +1,11 @@
 // src/App.jsx
-
 import React from 'react';
-import Counter from './Counter'
+import Counter from './Counter';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Hook userEffect</h1>
+      <h1>Hook useEffect</h1>
       <Counter />
     </div>
   );

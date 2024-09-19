@@ -1,9 +1,9 @@
-import React, { userState, userEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Counter() {
-    const [ count, setCount ] = `Você clicou ${count} vezes!`;
+    const [count, setCount] = useState(0);
 
-    userEffect(() => {
+    useEffect(() => {
         document.title = `Você clicou ${count} vezes!`;
     }, [count]);
 
@@ -11,7 +11,7 @@ function Counter() {
         <div>
             <p>Você clicou {count} vezes!</p>
             <button onClick={() => setCount(count + 1)}>
-                	Clique Aqui
+                Clique Aqui
             </button>
         </div>
     );

@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -68,7 +69,8 @@ nav a {
 
 .product-grid {
     display: grid;
-    grid-template-columns: 3fr 3fr;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: auto;
     gap: 20px;
     align-items: center;
     align-content: center;
@@ -76,12 +78,14 @@ nav a {
 }
 
 .product {
+    width: 80%;
     background-color: #fff;
     padding: 17px;
     border: 1px solid #B1DBF9;
     border-radius: 30px;
     cursor: pointer;
     margin: auto;
+    height: auto;
 }
 
 .product:hover {

@@ -1,0 +1,30 @@
+header {
+    background-color: #B1DBF9;
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    list-style: none;
+    text-decoration: none;
+    color: #666;
+    cursor: default;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}

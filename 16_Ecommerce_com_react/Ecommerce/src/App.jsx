@@ -1,11 +1,12 @@
-
-import Alert from './pages/Alert'
+import React from 'react'
+import './pages/Header_module.css'
+import Header from './pages/Header'
 
 function App() {
 
   return (
     <div>
-      <Alert />
+      <Header />
     </div>
   )
 }

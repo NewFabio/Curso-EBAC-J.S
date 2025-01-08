@@ -1,13 +1,17 @@
-import React from 'react'
-import './pages/Header_module.css'
-import Header from './pages/Header'
+import './App.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Banner from './components/Banner'
+
 
 function App() {
 
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <Banner />
+      <Footer />
+    </>
   )
 }
 

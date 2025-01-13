@@ -1,8 +1,11 @@
 import './App.css'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Banner from './components/Banner'
+import "bootstrap/dist/css/bootstrap.min.css";
 
+
+import Header from './components/Header'
+import Banner from './components/Banner'
+import Footer from './components/Footer'
+import Carousell from './components/Carousel';
 
 function App() {
 
@@ -10,6 +13,7 @@ function App() {
     <>
       <Header />
       <Banner />
+      <Carousell />
       <Footer />
     </>
   )

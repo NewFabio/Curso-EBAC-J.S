@@ -30,3 +30,9 @@
     cursor: pointer;
     padding: 10px;
 }
+
+.banner button:hover {
+    background-color: var(--primary);
+    color: var(--text-1);
+    transition: 1s;
+}

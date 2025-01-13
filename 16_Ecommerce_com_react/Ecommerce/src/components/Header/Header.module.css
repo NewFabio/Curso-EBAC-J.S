@@ -1,15 +1,1 @@
-.navbar_container {
-    background-color: var(--primary);
-}
-
-.navbar_container a {
-    color: var(--text-1);
-    font-weight: bold;
-    text-align: center;
-}
-
-.navbar_container button {
-    background-color: var(--text-1);
-    margin-bottom: 0px;
-}
 

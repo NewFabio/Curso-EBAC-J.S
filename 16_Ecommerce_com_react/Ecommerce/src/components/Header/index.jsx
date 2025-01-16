@@ -20,17 +20,17 @@ function Header() {
         <nav className="ms-auto">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a href="" className="nav-link text-white">
+              <a href="" className="nav-link">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a href="" className="nav-link text-white">
+              <a href="" className="nav-link">
                 Sobre
               </a>
             </li>
             <li className="nav-item">
-              <a href="" className="nav-link text-white">
+              <a href="" className="nav-link">
                 Contato
               </a>
             </li>

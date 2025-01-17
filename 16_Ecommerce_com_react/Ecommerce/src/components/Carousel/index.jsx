@@ -1,9 +1,8 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import "bootstrap/dist/css/bootstrap.min.css";
 import CarouselCaption from "react-bootstrap/esm/CarouselCaption";
 import CarouselItem from 'react-bootstrap/CarouselItem'
-import styles from './Carouselll.module.css'
+import './Carouselll.module.css'
 
 
 function Carousell() {
@@ -17,10 +16,10 @@ function Carousell() {
               src="../public/Image/curso1.jpg"
               alt="Primeira imagem"
             />
-            <CarouselCaption>
+            {/* <CarouselCaption>
               <h3 className="text-dark fs-4 ">Curso JavaScript</h3>
               <p className="text-dark fs-5 ">Curso voltado para quem esta iniciando, ou quer melhorar suas habilidades.</p>
-            </CarouselCaption>
+            </CarouselCaption> */}
           </CarouselItem>
           <CarouselItem>
             <img
@@ -28,10 +27,10 @@ function Carousell() {
               src="../public/Image/curso2.jpg"
               alt="Segunda imagem"
             />
-            <CarouselCaption>
+            {/* <CarouselCaption>
               <h3 className="text-dark fs-4">Curso React</h3>
               <p className="text-dark fs-5">Curso voltado para melhorar a sua abordagem no front end.</p>
-            </CarouselCaption>
+            </CarouselCaption> */}
           </CarouselItem>
           <CarouselItem>
             <img
@@ -39,10 +38,10 @@ function Carousell() {
               src="../public/Image/curso3.jpg"
               alt="Terceira imagem"
             />
-            <CarouselCaption>
+            {/* <CarouselCaption>
               <h3 className="text-dark fs-4">Curso Node.js</h3>
               <p className="text-dark fs-5">Curso voltado para quem deseja ser um desenvolvedor web completo.</p>
-            </CarouselCaption>
+            </CarouselCaption> */}
           </CarouselItem>
           <CarouselItem>
             <img
@@ -50,10 +49,10 @@ function Carousell() {
               src="../public/Image/curso4.jpg"
               alt="Quarta imagem"
             />
-            <CarouselCaption>
+            {/* <CarouselCaption>
               <h3 className="text-dark fs-4">Curso TypeScript</h3>
               <p className="text-dark fs-5">Voltado para quem deseja aprender outra abordagem no uso do JavaScript.</p>
-            </CarouselCaption>
+            </CarouselCaption> */}
           </CarouselItem>
         </Carousel>
       </div>

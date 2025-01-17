@@ -1,0 +1,9 @@
+div {
+    max-height: 500px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.carousel-item {
+    justify-content:space-between;
+}

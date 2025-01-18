@@ -1,9 +1,7 @@
-div {
-    max-height: 500px;
-    max-width: 100%;
-    margin: auto;
+/* .custom-carousel {
+    display: none;
 }
-
-.carousel-item {
-    justify-content:space-between;
-}
+.custom-carousel img {
+    height: 100%;
+    object-fit: cover;
+} */

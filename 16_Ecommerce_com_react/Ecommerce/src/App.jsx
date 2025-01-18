@@ -1,22 +1,29 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
 import Header from './components/Header'
-import Banner from './components/Banner'
 import Footer from './components/Footer'
-import Carousell from './components/Carousel';
+import Home from './pages/Home'
+import Sobre from './pages/Sobre'
+import Contato from './pages/Contato'
 
 function App() {
 
   return (
-    <>
+    <Router>
       <Header />
-      <Carousell />
-      <Banner />
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/sobre' element={<Sobre/>}/>
+        <Route path='/contato' element={<Contato/>}/>
+      </Routes>
       <Footer />
-    </>
+    </Router>
   )
 }
 

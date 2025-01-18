@@ -1,11 +1,12 @@
-import React from "react";
 import "./Header.module.css";
+import { Link } from "react-router-dom";
 
 function Header() {
+
   return (
-    <header className="bg-dark navbar-expand-xl">
-      <div className="navbar navbar-dark d-flex justify-content-around">
-        <span className="navbar-brand">DevCurso</span>
+    <header className="navbar fixed-top bg-dark navbar-expand-xl" >
+      <div className=" navbar-dark container-fluid justify-content-around  p-3">
+        <span className="navbar-brand p-3">DevCurso</span>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,19 +22,13 @@ function Header() {
           <nav className="ms-auto">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a href="" className="nav-link">
-                  Home
-                </a>
+                <Link className="nav-link p-3"  to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link">
-                  Sobre
-                </a>
+                <Link className="nav-link p-3" to="/sobre">Sobre</Link>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link">
-                  Contato
-                </a>
+                <Link className="nav-link p-3" to="/contato">Contato</Link>
               </li>
             </ul>
           </nav>

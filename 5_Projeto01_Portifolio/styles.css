@@ -17,6 +17,18 @@ body {
     overflow: hidden;
 }
 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #77aaff;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 header {
     background: #333;
     color: #fff;
@@ -24,16 +36,19 @@ header {
     padding-top: 15px;
     min-height: 70%;
     border-bottom: #77aaff 3px solid;
-    text-align: center;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
 }
 
 header a {
-    background: #77aaff;
+   background: #77aaff;
     color: #fff;
-    padding: 10px 15px 10px 15px;
-    min-height: 70px;
+    padding: 10px 20px;
     font-size: 16px;
-    border: 10px solid #77aaff;
+    border: none;              /* remove a borda sólida */
+    border-radius: 50px;     /* deixa totalmente arredondado */
+    display: inline-block;     /* garante comportamento de botão */
 }
 
 header a:hover {
@@ -48,6 +63,7 @@ header ul {
 header li {
     display: inline-block;
     padding: 2 20px 2 20px;
+    margin-right: 10px;
 }
 
 header .container::after {
@@ -57,7 +73,8 @@ header .container::after {
 }
 
 #hero {
-    background: url(/5_1Projeto_Portifolio/img/background.webp) no-repeat center center/cover;
+    background: url('img/background.webp') no-repeat center center;
+    background-size: cover;
     color: #fff;
     height: 100vh;
     text-align: center;
@@ -83,7 +100,9 @@ header .container::after {
     background: #77aaff;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 20px;
+    border: none;              /* remove a borda sólida */
+    border-radius: 50px;     /* deixa totalmente arredondado */
+    display: inline-block;     /* garante comportamento de botão */
 }
 
 #hero .btn:hover {
@@ -105,6 +124,24 @@ section h2 {
     width: 70%;
     margin: auto;
     line-height: 1.6;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.skill {
+    background: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
 }
 
 #projects .project {
